@@ -1,0 +1,90 @@
+.column {
+    float: left;
+    width: 35%;
+    padding: 0 10px ;
+    
+}
+
+.column2 {
+    float: left;
+    width: 60%;
+    padding: 0 10px;
+}
+
+
+.column3 {
+    float: left;
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  .row {margin: 0 -5px;}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      background-color: white;
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      
+    }
+  }
+
+  
+  .col-container {
+    display: table; 
+    width: 100%; 
+}
+
+
+  .tableTop5 {
+    width: 100%;
+    padding: 0px 100px 0px 20px;
+  }
+
+
+  .tableTeam {
+    padding: 0px 0px 0px 20px;
+  }
+  
+
+  .tableTeamPlayer {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+
+
+  .button {
+    background-color: #fff; 
+  }
+
+
+  .title {
+    color: #552C8A; 
+  }
+
+  .titleCreate{
+    color: rgb(160, 158, 158);
+  }
+
+  .tableDados {
+    width: 100%;
+    padding: 0px 100px 0px 20px;
+    border: 3px solid #f1f1f1;
+    border-radius: 4px;
+    height: 40px;
+  }

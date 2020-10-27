@@ -1,0 +1,84 @@
+.Card{
+    border: 3px solid #f1f1f1;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card .Conteudo{       
+    flex: 1;
+    padding: 10px 20px;
+    text-align: left;    
+    float: left;
+}
+
+.Card .cards{       
+    flex: 1;
+    padding: 10px 20px;
+    text-align: left;    
+    float: left;
+}
+
+.col-container{
+    display: table-cell;
+}
+
+.top-right {
+    position: absolute;
+    top: 70px;
+    right: 35px;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px 0px;   
+  }
+
+.img {
+    border-radius: 10px;
+  }
+
+
+.Card .Footer{
+    background-color: #A8A7A7;
+    color: #f1f1f1;
+    padding: 5px 0px;    
+}
+
+
+.tableTeam{
+    float: left;
+    width: 50%;
+    padding: 0 10px 50px;
+}
+
+.divTeam {
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(219, 219, 219));
+}
+
+
+
+.Item-field{
+    width: 50%;
+}
+
+.buttonRadio-field{
+    width: 10%;
+}
+
+
+
+.Top{       
+    background-color: #fff;
+    height: 50px;
+    width: 100%;    
+    overflow: hidden;
+}
